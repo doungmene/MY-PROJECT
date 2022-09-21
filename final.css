@@ -1,0 +1,86 @@
+body,html{
+    height: 100%;
+    margin:0;
+    font: size 16px;
+    font-family:"lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+    .img1,.img2,.img3,.img4,{
+    position:relative;
+    opacity: 0.70;
+    background-position:center;
+    background-size:cover
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    }
+
+.img1{
+    background-image:url('../New\ folder/.img1');
+    min-height:400;
+}
+
+.img2{
+    background-image:url('../New\ folder/.img2');
+    min-height:400;
+}
+.img3{
+    background-image:url('../New\ folder/.img3');
+    min-height:400;
+}
+.img4{
+    background-image:url('../New\ folder/.img4');
+    min-height:400;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#666;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#666;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#666;
+}
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align:center;
+    color:#000;
+    font: size 17px;
+    font: size 27px;
+    letter-spacing: 8px
+    text-transform:uppercase;
+}
+
+.ptext.borther{
+background-color:#111;
+color:#fff;
+padding:20x;
+}
+.ptext .border .trans{
+    background-color: transparent;
+}
+
+@media(max-width:568){
+    .img, .img2, .img3, .img4,{
+        background-attachment: scroll;
+    }
+}
+
